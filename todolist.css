@@ -1,1 +1,15 @@
-...
+    .high {
+      color: red;
+    }
+    .medium {
+      color: orange;
+    }
+    .low {
+      color: gray;
+    }
+    #A1 {
+      text-decoration: line-through;
+    }
+    #A2 {
+      text-decoration: line-through;
+    }
