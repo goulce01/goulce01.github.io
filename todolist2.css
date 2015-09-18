@@ -1,22 +1,22 @@
-    .high {
+    section.high {
     background-color: red;
     }
     .high li {
     color: white;
     }
-    .medium {
+    section.medium {
     background-color: orange;
     }
     .medium li {
     color: brown;
     }
-    .low {
+    section.low {
     background-color: gray;
     }
     .low li {
     color: black;
     }
-    .done {
+    section.done {
     background-color: black;
     text-decoration: line-through;
     }
