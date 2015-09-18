@@ -1,14 +1,18 @@
     .high {
       color: white;
+      background-color: red;
     }
     .medium {
       color: brown;
+      background-color: orange;
     }
     .low {
       color: black;
+      background-color: gray;
     }
     .done {
       color: cyan;
+      background-color: black;
     }
     #D1 {
       text-decoration: line-through;
