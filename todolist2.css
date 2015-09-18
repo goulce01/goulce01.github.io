@@ -1,33 +1,24 @@
-    section.high {
+    .high {
     background-color: red;
-    }
-    .high li {
     color: white;
     }
-    section.medium {
+    .medium {
     background-color: orange;
-    }
-    .medium li {
     color: brown;
     }
-    section.low {
+    .low {
     background-color: gray;
-    }
-    .low li {
     color: black;
     }
-    section.done {
+    .done {
     background-color: black;
     text-decoration: line-through;
-    }
-    .done li {
     color: cyan;
     }
     section {
     height: 150px;
     width: 400px;
     margin: 15 15 15 15;
-    border: 2px dotted rgb(0,0,0);
     }
     
 
