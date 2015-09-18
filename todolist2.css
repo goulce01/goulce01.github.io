@@ -1,16 +1,16 @@
-    .high {
+    section.high {
     background-color: red;
     color: white;
     }
-    .medium {
+    section.medium {
     background-color: orange;
     color: brown;
     }
-    .low {
+    section.low {
     background-color: gray;
     color: black;
     }
-    .done {
+    section.done {
     background-color: black;
     text-decoration: line-through;
     color: cyan;
