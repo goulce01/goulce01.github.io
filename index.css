@@ -41,3 +41,30 @@ body {
 }
 </style>
 </head>
+<body>
+<header>
+<code>Celia Gould</code>
+</header>
+<nav>
+<code>Hello World!</code>
+</nav>
+<section>
+<nav><a href="hobby.html"><code>Hobby</code></a></nav>
+<nav><a href="gallery.html"><code>Gallery</code></a></nav>
+<p><code>Assignments:</code></p>
+<nav><a href="todolist.html"><code>Make a list.</code></a></nav>
+<nav><a href="todolist2.html"><code>Make a more involved list.</code></a></nav>
+</section>
+<aside>
+  <img height=250 width=250 src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/11108840_10200531901696109_389954491626798893_n.jpg?oh=e415ab1cf5841b6b98ef8ad7765b7591&oe=569DA8F9">
+  <ul>
+  <li><code>Birthday: Valentine's Day</code></li>
+  <li><code>Hometown: Oconomowoc, WI USA</code></li>
+  <li><code>University/College: Luther College</code></li>
+  <ul>
+</aside>
+<footer>
+<code>My first website.</code>
+</footer>
+</body>
+</html>
