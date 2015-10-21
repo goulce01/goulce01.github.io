@@ -1,9 +1,7 @@
 <script type= "type/javascript">
 Newtask = function() {
-var myitem;
-var mylist;
- myitem = Number.parseInt(document.querySelector("#listitem")).value;
- document.querySelector("#tasklist").innerHTML = list;
- newitem = document.createElement("li");
- tasklist = document.createElement("ul");
+var myItem;
+var myList;
+ myList = document.querySelector("#tasklist");
+ myItem = document.createElement("li");
 }
