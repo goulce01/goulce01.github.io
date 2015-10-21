@@ -12,6 +12,7 @@ section#sect {
   background-color: gray;
 }
 section#selectors {
+  text-align: center;
   position: relative;
   margin-left: auto;
   margin-right: auto;
