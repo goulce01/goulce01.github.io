@@ -7,7 +7,7 @@ section#sect {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 500px;
   height: 300px;
   background-color: gray;
 }
@@ -15,7 +15,7 @@ section#selectors {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 500px;
   height: 25px;
   background-color: gray;
 }
