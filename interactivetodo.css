@@ -8,3 +8,12 @@ section#sect {
   height: 300px;
   background color: #E8E8E8;
 }
+option#red {
+  color: red;
+}
+option#blue {
+  color: blue;
+}
+option#yellow {
+  color:yellow;
+}
