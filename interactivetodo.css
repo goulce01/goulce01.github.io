@@ -20,12 +20,12 @@ section#selectors {
   height: 23px;
   background-color: #9999CC;
 }
-option#red {
+.red {
   color: #FF3300;
 }
-option#blue {
+.blue {
   color: #3333CC;
 }
-option#yellow {
+.yellow {
   color: #FFCC33;
 }
