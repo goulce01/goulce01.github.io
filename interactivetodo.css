@@ -1,4 +1,7 @@
-#title {
+<html>
+<body>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+"#title {
   text-align: center;
   font-size: 30pt;
   margin-bottom: 20px;
@@ -7,7 +10,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10pt;
+  margin-bottom: 10px;
   width: 500px;
   height: 300px;
   background-color: #9999CC;
@@ -25,16 +28,20 @@
 #ullist {
   list-style: none;
 }
-#rli {
+.High {
   color: #FF3300;
 }
-#bli {
+.Medium {
   color: #3333CC;
 }
-#yli {
+.Low {
   color: #FFCC33;
 }
 .done {
-  color: white;
+  color: black;
   text-decoration: line-through;
 }
+"
+</pre>
+</body>
+</html>
