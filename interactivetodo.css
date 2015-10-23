@@ -1,17 +1,19 @@
-header {
+#title {
   text-align: center;
   font-size: 35pt;
-  height: 20px;
+  margin-bottom: 20px;
 }
-section#sect {
+#boxsect {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 35pt;
   width: 500px;
   height: 300px;
   background-color: #9999CC;
+  overflow: auto;
 }
-section#selectors {
+#entersect {
   text-align: center;
   position: relative;
   margin-left: auto;
@@ -20,12 +22,19 @@ section#selectors {
   height: 23px;
   background-color: #9999CC;
 }
-.red {
+#ullist {
+  list-style: none;
+}
+#rli {
   color: #FF3300;
 }
-.blue {
+#bli {
   color: #3333CC;
 }
-.yellow {
+#yli {
   color: #FFCC33;
+}
+.done {
+  color: white;
+  text-decoration: line-through;
 }
