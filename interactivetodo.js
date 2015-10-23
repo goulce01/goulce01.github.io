@@ -7,7 +7,7 @@ check.type = "checkbox";
 listitem.appendChild(check);
 listitem.appendChild(text);
 listitem.className = document.querySelector('#priority').value;
-check.onclick = completeTask;
+check.onclick = compTask;
 var unordlist = document.querySelector('#ullist');
 unordlist.appendChild(listitem);
 localSave("ullist");
