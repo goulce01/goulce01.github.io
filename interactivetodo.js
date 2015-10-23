@@ -1,7 +1,4 @@
-<html>
-<body>
-<pre style="word-wrap: break-word; white-space: pre-wrap;">
-"addTask = function() {
+addTask = function() {
 document.querySelector('#priority').option.className;
 var text = document.createTextNode(document.querySelector('#taskenter').value);
 var listitem = document.createElement("li");
@@ -29,7 +26,3 @@ compTask = function(){
 window.onload = function(){
   restoreList("ullist", completeTask);
 }
-"
-</pre>
-</body>
-</html>
