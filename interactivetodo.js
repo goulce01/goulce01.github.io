@@ -1,20 +1,28 @@
-<script type= "type/javascript">
-Newtask = function() {
-var myItem;
+newTask = function() {
+document.querySelector("#priority").option.className;
+var text = document.createTextNode(document.querySelector("#taskenter").value);
+var listitem = document.createElement("li");
+var check = document.createElement("input");
+check.type = "checkbox";
+listitem.appendChild(check);
+listitem.appendChild(text);
+listitem.className = document.querySelector("#priority").value;
+check.onclick = completeTask;
+var unordlist = document.querySelector("#ullist");
+unordlist.appendChild(listitem);
+localSave("ullist");
+}
 
-var myList;
-
-var myPriority;
-
-var myTaskin;
-
- myList = document.querySelector("#tasklist");
- myItem = document.createElement("li");
- myPriority = document.querySelector("#priority");
- myTaskin = document.querySelector("#taskin");
- myTaskin.type = "checkbox";
- myList.appendChild(myItem);
- myItem.classList.add(myPriority.value);
- myItem.appendChild(myTaskin);
- myItem.innerHTML = document.querySelector("#taskin").value;
- 
+compTask = function(){
+  if (this.checked) { 
+  this.parentNode.classList.add("done");
+  }
+  else {
+  this.parentNode.classList.remove("done");
+  }
+  localSave("ullist");
+  
+}
+window.onload = function(){
+  restoreList("ullist", completeTask);
+}
