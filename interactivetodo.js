@@ -1,14 +1,17 @@
-newTask = function() {
-document.querySelector("#priority").option.className;
-var text = document.createTextNode(document.querySelector("#taskenter").value);
+<html>
+<body>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+"addTask = function() {
+document.querySelector('#priority').option.className;
+var text = document.createTextNode(document.querySelector('#taskenter').value);
 var listitem = document.createElement("li");
 var check = document.createElement("input");
 check.type = "checkbox";
 listitem.appendChild(check);
 listitem.appendChild(text);
-listitem.className = document.querySelector("#priority").value;
+listitem.className = document.querySelector('#priority').value;
 check.onclick = completeTask;
-var unordlist = document.querySelector("#ullist");
+var unordlist = document.querySelector('#ullist');
 unordlist.appendChild(listitem);
 localSave("ullist");
 }
@@ -26,3 +29,7 @@ compTask = function(){
 window.onload = function(){
   restoreList("ullist", completeTask);
 }
+"
+</pre>
+</body>
+</html>
