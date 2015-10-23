@@ -1,7 +1,4 @@
-<html>
-<body>
-<pre style="word-wrap: break-word; white-space: pre-wrap;">
-"#title {
+#title {
   text-align: center;
   font-size: 30pt;
   margin-bottom: 20px;
@@ -41,7 +38,4 @@
   color: black;
   text-decoration: line-through;
 }
-"
-</pre>
-</body>
-</html>
+
