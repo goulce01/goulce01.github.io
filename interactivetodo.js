@@ -24,5 +24,5 @@ compTask = function(){
   
 }
 window.onload = function(){
-  restoreList("ullist", completeTask);
+  restoreList("ullist", compTask);
 }
