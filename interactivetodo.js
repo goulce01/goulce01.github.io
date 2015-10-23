@@ -1,5 +1,5 @@
 addTask = function() {
-document.querySelector('#priority').option.className;
+document.querySelector('#priority').value;
 var text = document.createTextNode(document.querySelector('#taskenter').value);
 var listitem = document.createElement("li");
 var check = document.createElement("input");
